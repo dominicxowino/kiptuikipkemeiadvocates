@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>kiptuikipkemei&co.advocates</title>
+  
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+
+</style>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+</head>
+<body class="body">
+  
+  
+  <div class="page-header">
+  <h1>Example page header <small>Subtext for header</small></h1>
+</div>
+  
+<%= render "layouts/navigation" %>
+
+ 
+
+<div class="container"
+<%= yield %>
+
+  
+ 
+
+
+</div>
+  <div class="footer" > 
+<div class="row">
+   <div class="col-sm-4" style="background-color:#00ff00; height:100px;"></div>
+   <div class="col-sm-4" style="background-color:#00ff00; height:100px;"></div>
+   <div class="col-sm-4" style="background-color:#00ff00; height:100px;"></div>
+  
+  
+  
+  
+</div>
+</div> 
+</body>
+</html>
