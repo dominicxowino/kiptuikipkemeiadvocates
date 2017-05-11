@@ -3,3 +3,10 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").hide();
+    });
+});
+</script>
